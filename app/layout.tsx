@@ -34,13 +34,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "4TUNEZ - CLOUD | เว็บฝากรูปภาพฟรี 24 ชั่วโมง",
     description: "บริการฝากรูปภาพออนไลน์ฟรี รองรับ JPG, PNG, GIF ใช้งานง่าย รวดเร็ว และปลอดภัยตลอด 24 ชั่วโมง",
-    url: "https://yourdomain.com", // เปลี่ยนเป็น URL จริงของคุณ
+    url: "https://localhost:3000/", // เปลี่ยนเป็น URL จริงของคุณ
     siteName: "4TUNEZ - CLOUD",
     locale: "th_TH",
     type: "website",
     images: [
       {
-        url: "https://yourdomain.com/og-image.png", // ใส่ลิงก์รูปภาพสำหรับแชร์ใน social
+        url: "https://localhost:3000/og-image.png", // ใส่ลิงก์รูปภาพสำหรับแชร์ใน social
         width: 1200,
         height: 630,
         alt: "4TUNEZ - CLOUD เว็บฝากรูปภาพฟรี",
@@ -51,16 +51,16 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "4TUNEZ - CLOUD | เว็บฝากรูปภาพฟรี 24 ชั่วโมง",
     description: "ฝากรูปภาพออนไลน์ฟรี รองรับ JPG, PNG, GIF อัปโหลดง่ายและรวดเร็ว",
-    images: ["https://yourdomain.com/twitter-image.png"], // เปลี่ยนตามจริง
+    images: ["https://localhost:3000/twitter-image.png"], // เปลี่ยนตามจริง
     creator: "@yourtwitterhandle", // ถ้ามี
   },
   robots: {
     index: true,
     follow: true,
   },
-  metadataBase: new URL("https://yourdomain.com"), // ใส่ domain จริง
+  metadataBase: new URL("https://localhost:3000/"), // ใส่ domain จริง
   alternates: {
-    canonical: "https://yourdomain.com",
+    canonical: "https://localhost:3000/",
   },
 };
 
