@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
     const response = await axios.post('https://pic.in.th/api/1/upload', forwardForm, {
       headers: {
         ...forwardForm.getHeaders(),
-        'X-API-Key': 'chv_gy3p_1aea325cdccad12841ae39695535b1231c0d1fb81821632d423d888eac29c99d6a6d9b6f94d9e06d51f4b92fcb87df0a94e70c8bfce7cab11ffb28a998a41a31',
+        'X-API-Key': 'chv_eRQ6_bacefdd4fd74890312e4ac0fd3fc0b210ab09922319a634220009aa5d7babccf_78585c04528c1b967f482cd28c0eacf830b9ae2d8f080d0914e68866da545908',
       }
     })
 
